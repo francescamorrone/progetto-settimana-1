@@ -24,7 +24,7 @@ main {
 
 header {
     background-color: rgb(144, 144, 165);
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../IMG/header-bg.jpg);
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center;
