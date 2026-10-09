@@ -153,23 +153,43 @@ main section h2::before {
     font-style: italic;
 }
 
-th {
-    color:#193366;
+.tabella-competenze {
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid #ECE6D8;
 }
 
-tr th:first-child {
+.tabella-competenze th, td {
+    border-bottom: 1px solid #ECE6D8;
+    padding: 15px;
+}
+
+th {
+    color:#193366;
     text-align: left;
+    background-color: #F9F5EA;
+    padding: 10px;
+    border-bottom: 1px solid #ECE6D8;
+}
+
+
+tr th:first-child {
+    width:40%;
 }
 
 tr th:last-child {
-    text-align: left;
-    width: 700px;
+    width: 60%;
+}
+
+.gray-bar {
+    height:15px;
+    border-radius: 20px;
+    background-color: #ECE6D8;
 }
 
 .first-bar {
-    max-width: 400px;
     height:15px;
     border-radius: 20px;
-    background-color: #193366;
-
+    width: 80%;
+    background-color: hsl(45, 90%, 60%);
 }
