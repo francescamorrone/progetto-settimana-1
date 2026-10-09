@@ -13,13 +13,13 @@ html, body {
     font-size: 16px;
     background-color: #f4f1ec;
     color: #2b2b2b;
-    line-height: 1.7;
 }
 
 main {
     max-width: 920px;
     margin: 0 auto;
     padding: 40px 20px;
+    line-height: 1.7;
 }
 
 header {
@@ -52,7 +52,7 @@ nav a {
     font-weight: bold;
     text-decoration: none;
     border: 1px solid #8b8b90;
-    padding: 5px 14px;
+    padding: 10px 16px;
     border-radius: 7px;
     display: inline-block;
 }
@@ -77,10 +77,11 @@ nav a:hover {
 }
 
 /*icone navbar*/
-.fa-solid {
+.navbar-icons, .button-icon {
     font-size: 15px;
     padding-right: 10px;
 }
+
 
 /*cards*/
 main section {
@@ -186,24 +187,63 @@ th {
     background-color: #ECE6D8;
 }
 
-.first-bar {
+.first-bar, .second-bar, .third-bar, .forth-bar, .fifth-bar {
     height:15px;
     border-radius: 20px;
     width: 80%;
     background-color: hsl(45, 90%, 60%);
 }
 
+.second-bar {
+    width: 70%;
+}
+
+.third-bar {
+    width: 50%;
+}
+
+.forth-bar {
+    width: 40%;
+}
+
+.fifth-bar {
+    width: 60%;
+}
+
 /*progetti*/
+
+.github {
+    color:#1F3D7A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.github:hover {
+    border-bottom: 3px solid hsl(45, 90%, 60%);;
+}
+
+#progetti div:first-of-type h3::after {
+    content: "NEW";
+    font-family: 'Inter', Arial, sans-serif;
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 12px;
+    background-color: red;
+    color: #ffffff;
+    border-radius: 3px;
+    font-size: 0.75rem;
+}
+
 #other-projects {
     display: block;
     text-align: right;
-    color: #193366;
+    color: #193366; 
     font-weight: bold;
     font-size: 1.2rem;
     text-decoration: underline;
-    text-decoration-color: hsl(45, 90%, 60%);
     text-decoration-thickness: 3px;
-    text-underline-offset: 6px;
+    text-decoration-color: hsl(45, 90%, 60%);
+    text-underline-offset: 5px;
 }
 
 #other-projects:visited {
@@ -245,8 +285,16 @@ input, textarea, select {
     border-radius: 5px;
 }
 
+input:focus, textarea:focus, select:focus {
+    background-color: #fff;
+    border: 1px solid #193366;
+    
+}
+
 ::placeholder {
-    color: #A39B87
+    color: #A39B87;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: italic;
 }
 
 input[type='checkbox'] {
@@ -275,6 +323,32 @@ button:hover {
     text-align: center;
     font-size: 0.9rem;
 }
+
+#footer-icons {
+    text-align: center;
+}
+
+#footer-icons a i {
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.193);
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+    text-decoration: none;
+}
+
+#footer-icons a:hover {
+    background-color: hsl(45, 90%, 60%);
+    color:#172136;
+}
+
+
 
 footer {
     padding: 40px 20px;

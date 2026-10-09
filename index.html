@@ -19,11 +19,11 @@
         <!--blocco nav-->
         <nav>
             <ul>
-                <li><a href="#chi-sono"><i class="fa-solid fa-user"></i> Chi Sono</a></li>
-                <li><a href="#competenze"><i class="fa-solid fa-gears"></i>Competenze</a></li>
-                <li><a href="#esperienze"><i class="fa-solid fa-briefcase"></i>Esperienze</a></li>
-                <li><a href="#progetti"><i class="fa-sharp fa-solid fa-folder-open"></i>Progetti</a></li>
-                <li><a href="#contatti"><i class="fa-solid fa-envelope"></i>Contatti</a></li>
+                <li><a href="#chi-sono"><i class="navbar-icons fa-solid fa-user"></i> Chi Sono</a></li>
+                <li><a href="#competenze"><i class="navbar-icons fa-solid fa-gears"></i>Competenze</a></li>
+                <li><a href="#esperienze"><i class="navbar-icons fa-solid fa-briefcase"></i>Esperienze</a></li>
+                <li><a href="#progetti"><i class="navbar-icons fa-sharp fa-solid fa-folder-open"></i>Progetti</a></li>
+                <li><a href="#contatti"><i class="navbar-icons fa-solid fa-envelope"></i>Contatti</a></li>
             </ul>
         </nav>
     </header>
@@ -70,7 +70,10 @@
 
                 <tbody>
                     <tr>
-                        <td>HTML5 semantico</td>
+                        <td>
+                            <p>HTML5 semantico</p>
+                            <p>Tag strutturali, attributi, accessibilità di base, form con validazione</p>
+                        </td>
                         <td>
                             <div class="gray-bar">
                                 <div class="first-bar"></div>
@@ -78,7 +81,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>CSS3</td>
+                        <td>
+                            <p>CSS3</p>
+                            <p>Selettori, pseudo-classi, box-model, float, pseudo-elementi, Google Fonts</p>
+                        </td>
                         <td>
                             <div class="gray-bar">
                                 <div class="second-bar"></div>
@@ -86,7 +92,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Git e GitHub</td>
+                        <td>
+                            <p>Git e GitHub</p>
+                            <p>int, add, commit, push, repository remoti, pubblicazione su GitHub Pages</p>
+                        </td>
                         <td>
                             <div class="gray-bar">
                                 <div class="third-bar"></div>
@@ -94,7 +103,10 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Linea di comando</td>
+                        <td>
+                            <p>Linea di comando</p>
+                            <p>Navigazione tra cartelle, gestione file, comandi base di shell su macOS e Linux</p>
+                        </td>
                         <td>
                             <div class="gray-bar">
                                 <div class="fifth-bar"></div>
@@ -102,10 +114,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Markdown e documentazione</td>
+                        <td>
+                            <p>Markdown e documentazione</p>
+                            <p>README, documetazione tecnica, scrittura chiara per altri sviluppatori</p>
+                        </td>
                         <td>
                             <div class="gray-bar">
-                                <div class="sixth-bar"></div>
+                                <div class="fifth-bar"></div>
                             </div>
                         </td>
                     </tr>
@@ -171,7 +186,8 @@
                 <h3>Pagina di Presentazione</h3>
                 <p>Una pagina di presentazione. Esercizio per applicare alcune regole sulla struttura HTML. Mi sono
                     divertita nel creare un design e nel cercare di riprodurlo il più fedelmente possibile con CSS.</p>
-                <p><a href="https://github.com/francescamorrone/epicode-challenge-n1" target="_blank">Vedi su GitHub</a>
+                <p><a class="github" href="https://github.com/francescamorrone/epicode-challenge-n1"
+                        target="_blank"><i class="fa-brands fa-github"></i> Vedi su GitHub</a>
                 </p>
             </div>
             <!--progetti n2-->
@@ -179,7 +195,8 @@
                 <h3>Pagina di Registrazione per un'app di Musica</h3>
                 <p>Una pagine di registrazione per un'app di musica. Mi sono esercitata con i form in HTML. Ho creato un
                     design e un brand fittizio per l'app e ho applicato il codice CSS.</p>
-                <p><a href="https://github.com/francescamorrone/epicode-challenge-n2" target="_blank">Vedi su GitHub</a>
+                <p><a class="github" href="https://github.com/francescamorrone/epicode-challenge-n2"
+                        target="_blank"><i class="fa-brands fa-github"></i> Vedi su GitHub</a>
                 </p>
             </div>
             <!--progetto n3-->
@@ -187,13 +204,13 @@
                 <h3>Pagina di Registrazione per un'app di Musica</h3>
                 <p>Una pagine di registrazione per un'app di musica. Mi sono esercitata con i form in HTML. Ho creato un
                     design e un brand fittizio per l'app e ho applicato il codice CSS.</p>
-                <p><a href="https://github.com/francescamorrone/epicode-challenge-n2" target="_blank">Vedi su GitHub</a>
+                <p><a class="github" href="https://github.com/francescamorrone/epicode-challenge-n2"
+                        target="_blank"><i class="fa-brands fa-github"></i> Vedi su GitHub</a>
                 </p>
-                <a class="back" href="#start">Torna indietro</a>
-                <a id="other-projects" href="tutti-i-progetti.html"><i class="fa-solid fa-arrow-right-long"></i>Tutti i
-                    progetti in dettaglio</a>
             </div>
-
+            <a class="back" href="#start">Torna indietro</a>
+            <a id="other-projects" href="tutti-i-progetti.html"><i class="fa-solid fa-arrow-right-long"></i>Tutti i
+                progetti in dettaglio</a>
         </section>
 
         <!--section "contatti"-->
@@ -238,7 +255,7 @@
                 <label for="accept">Accetto di essere ricontattato</label>
                 </br><br />
 
-                <button type="submit"><i class="fa-sharp fa-solid fa-paper-plane"></i>Invia</button>
+                <button type="submit"><i class="button-icon fa-sharp fa-solid fa-paper-plane"></i>Invia</button>
 
             </form>
             <a class="back" href="#start">Torna indietro</a>
@@ -247,6 +264,12 @@
 
     <!--blocco footer-->
     <footer id="site-footer">
+        <div id="footer-icons">
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-solid fa-globe"></i></a>
+        </div>
         <p>© 2026 Francesca Morrone</p>
     </footer>
 </body>
