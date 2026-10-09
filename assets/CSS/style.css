@@ -302,7 +302,7 @@ input, textarea, select {
     background-color: #f4f1ec;
     border-style: none;
     border: 1px solid #b6af9d;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -336,6 +336,7 @@ button:hover {
     background-color: hsl(220, 60%, 45%);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
+
 
 /*footer*/
 #site-footer {
