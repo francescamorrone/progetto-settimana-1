@@ -67,6 +67,10 @@ nav a:hover {
     display: inline;
 }
 
+nav li {
+    list-style-type: none;
+}
+
 #site-header nav li:not(#competenze) {
     margin-right:6px;
 }
@@ -172,6 +176,11 @@ table, #esperienza {
 
 
 .tabella-competenze{
+    border-bottom: 1px solid #ECE6D8;
+    padding: 15px;
+}
+
+td {
     border-bottom: 1px solid #ECE6D8;
     padding: 15px;
 }
