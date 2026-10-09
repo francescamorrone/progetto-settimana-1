@@ -149,9 +149,20 @@ main section h2::before {
 
 /*sezione competenze*/
 
-#competenze p:nth-of-type(2) {
+#competenze td p:first-child {
+    color:#172136;
+    font-weight: bold;
+}
+
+#competenze p:nth-child(3) {
     color:#475C85;
     font-style: italic;
+}
+
+.tabella-competenze  p:nth-child(2) {
+    color: rgb(70, 70, 70);
+    font-style: italic;
+    font-size: 0.9rem;
 }
 
 table {
@@ -181,6 +192,10 @@ th {
     width: 60%;
 }
 
+.tabella-competenze i {
+    padding-right: 10px;
+}
+
 .gray-bar {
     height:15px;
     border-radius: 20px;
@@ -208,6 +223,12 @@ th {
 
 .fifth-bar {
     width: 60%;
+}
+
+#esperienze caption{
+    text-align: left;
+    color:#193366;
+    font-style: italic;
 }
 
 /*progetti*/
@@ -343,7 +364,7 @@ button:hover {
     text-decoration: none;
 }
 
-#footer-icons a:hover {
+#footer-icons i:hover {
     background-color: hsl(45, 90%, 60%);
     color:#172136;
 }
