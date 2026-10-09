@@ -165,12 +165,13 @@ main section h2::before {
     font-size: 0.9rem;
 }
 
-table {
+table, #esperienza {
     width: 100%;
     border-collapse: collapse;
 }
 
-.tabella-competenze th, td {
+
+.tabella-competenze{
     border-bottom: 1px solid #ECE6D8;
     padding: 15px;
 }
