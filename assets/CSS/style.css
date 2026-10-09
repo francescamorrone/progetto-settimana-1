@@ -34,19 +34,41 @@ header {
     border-bottom: 4px solid hsl(45, 90%, 60%);
 }
 
+#site-header h1 {
+    font-size: 3rem;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.6);
+    margin-bottom: auto;
+    color: #fff;
+    font-family: 'Playfair Display', Georgia, serif;
+}
+
+h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #193366;
+}
+
 nav a {
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    border: 1px solid #828293;
-    padding: 8px;
-    border-radius: 10px;
+    border: 1px solid #8b8b90;
+    padding: 5px 14px;
+    border-radius: 7px;
     display: inline-block;
 }
 
-nav li {
+nav a:hover {
+    background-color:hsl(45, 90%, 60%);
+    color: #193366;
+}
+
+#site-header nav li {
     list-style-type: none;
     display: inline;
+}
+
+#site-header nav li:not(#competenze) {
+    margin-right:6px;
 }
 
 .tagline {
@@ -60,10 +82,7 @@ nav li {
     padding-right: 10px;
 }
 
-h1, h2, h3 {
-    font-family: 'Playfair Display', Georgia, serif;
-}
-
+/*cards*/
 main section {
     padding: 32px;
     margin-bottom: 24px;
@@ -74,6 +93,83 @@ main section {
 }
 
 main section:first-child {
-    margin-top: -95px;
+    margin-top: -100px;
 }
 
+/*rombo*/
+main section h2::before {
+    content: '\2756';
+    color:hsl(45, 90%, 60%);
+    padding-right: 8px;
+    font-size: 20px;
+}
+
+/*torna indietro*/
+.back {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: #989898;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.back:hover {
+    color:#193366;
+}
+
+/*sezione "chi sono"*/
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border: 4px solid hsl(45, 90%, 60%);
+    border-radius: 50%;
+    float:left;
+    margin-right: 15px;
+}
+
+#competenze {
+    clear: both;
+}
+
+#chi-sono {
+    background-color: #ffffff;
+    text-align: justify;
+}
+
+#chi-sono p:first-of-type::first-letter {
+    font-size: 3rem;
+    font-family: 'Inter';
+    float: left;
+    font-weight: bold;
+    margin-right: 6px;
+    color: #193366;
+}
+
+/*sezione competenze*/
+
+#competenze p:nth-of-type(2) {
+    color:#475C85;
+    font-style: italic;
+}
+
+th {
+    color:#193366;
+}
+
+tr th:first-child {
+    text-align: left;
+}
+
+tr th:last-child {
+    text-align: left;
+    width: 700px;
+}
+
+.first-bar {
+    max-width: 400px;
+    height:15px;
+    border-radius: 20px;
+    background-color: #193366;
+
+}
