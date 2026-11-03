@@ -74,15 +74,14 @@ img {
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
     border: 2px solid rgba(255, 255, 255, 0.18);
     background-color: #ECE6D8;
-
-    padding: 20px;
+    padding: 30px 20px 20px 20px; 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start; 
     flex-direction: column;
     max-width: 480px;
     max-height: 90vh;
-    overflow-y: scroll;
+    overflow-y: auto; 
 }
 
 .modal label {
@@ -99,20 +98,25 @@ img {
     position: absolute;
     top: 15px; 
     right: 15px;
-    background-color: rgb(104, 15, 15);
-    color: white;
-    font-size: 0.7rem;
+    background: rgba(230, 109, 90, 0.285);
+    color: rgb(206, 31, 31);
+    font-size: 0.8rem;
     width: 25px;
     height: 25px; 
     padding: 0;
     border-radius: 50%;
+    border: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+	 transition: all 0.2s ease;
 }
 
 .close:hover {
-    background-color: #66193d;
+    transform: scale(1.2);
+    background-color: rgba(240, 95, 95, 0.822);
+    color: white;
 }
 
 main {
