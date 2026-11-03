@@ -40,9 +40,12 @@ header {
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 60px 20px 40px;
-    /*padding: 30px 16px 20px;*/
+    /* padding: 60px 20px 40px; */
+    padding: 20px 16px 20px;
     border-bottom: 4px solid hsl(45, 90%, 60%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 #site-header h1 {
@@ -112,9 +115,9 @@ main section {
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
-main section:first-child {
+/* main section:first-child {
     margin-top: -100px;
-}
+} */
 
 /*rombo*/
 main section h2::before {
@@ -222,7 +225,7 @@ th {
     padding-right: 10px;
 }
 
-.gray-bar {
+/* .gray-bar {
     height: 15px;
     border-radius: 20px;
     background-color: #ECE6D8;
@@ -253,7 +256,7 @@ th {
 
 .fifth-bar {
     width: 60%;
-}
+} */
 
 #esperienze caption {
     text-align: left;
@@ -277,13 +280,15 @@ th {
 #progetti div:first-of-type h3::after {
     content: "NEW";
     font-family: 'Inter', Arial, sans-serif;
-    display: inline-block;
     padding: 2px 8px;
     margin-left: 12px;
     background-color: red;
     color: #ffffff;
-    border-radius: 3px;
+    border-radius: 0 4px 0 4px;
     font-size: 0.75rem;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #other-projects {
@@ -412,7 +417,6 @@ button:hover {
 }
 
 
-
 footer {
     padding: 40px 20px;
 }
@@ -427,16 +431,9 @@ table {
 
 
 
-/* @media screen (min-width 992px) {
-    h1 {
-        color: red;
-    }
-} */
-
-
 @media (min-width: 768px) {
     header {
-        padding: 60px 20px 40px;
+        padding: 10px;
     }
 
     ;
