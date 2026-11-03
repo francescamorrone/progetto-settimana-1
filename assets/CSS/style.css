@@ -79,6 +79,7 @@ img {
     align-items: center;
     justify-content: flex-start; 
     flex-direction: column;
+    width: 90%;
     max-width: 480px;
     max-height: 90vh;
     overflow-y: auto; 
