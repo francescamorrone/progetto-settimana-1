@@ -277,6 +277,10 @@ th {
     ;
 }
 
+.card-progetto {
+    position: relative;
+}
+
 #progetti div:first-of-type h3::after {
     content: "NEW";
     font-family: 'Inter', Arial, sans-serif;
