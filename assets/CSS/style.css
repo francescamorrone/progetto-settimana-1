@@ -17,6 +17,22 @@ body {
     scroll-behavior: smooth;
 }
 
+
+::-webkit-scrollbar {
+    width: 6px; /* Larghezza della barra di scorrimento verticale */
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+    margin-block: 20px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c5b476;
+    border-radius: 10px;
+}
+
+
 img {
     max-width: 100%;
     height: auto;
@@ -64,9 +80,7 @@ img {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-
-    width: 90%;
-    max-width: 500px;
+    max-width: 480px;
     max-height: 90vh;
     overflow-y: scroll;
 }
@@ -207,18 +221,6 @@ main section h2::before {
     font-size: 20px;
 }
 
-/*torna indietro*/
-.back {
-    margin-top: 20px;
-    text-decoration: underline;
-    color: #989898;
-    font-size: 0.9rem;
-    font-style: italic;
-}
-
-.back:hover {
-    color: #193366;
-}
 
 /*sezione "chi sono"*/
 
