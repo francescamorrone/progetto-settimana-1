@@ -1,4 +1,4 @@
-# 💼 Portfolio Personale — v1.0
+# 💼 Portfolio Personale v1.0
 
 Prima versione del mio portfolio personale, realizzata per il primo progetto settimanale del Master in Full-Stack AI Developer di EPICODE. Usa solo **HTML e CSS**.
 
