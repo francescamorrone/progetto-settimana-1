@@ -53,22 +53,6 @@ Pagina di approfondimento che descrive ogni progetto della settimana: tecnologie
 | [Google Fonts](https://fonts.google.com/) | Playfair Display per titoli e intestazioni |
 | Git e GitHub Pages | Versionamento e pubblicazione |
 
-## Struttura del progetto
-
-```
-portfolio/
-├── index.html
-├── tutti-i-progetti.html
-├── README.md
-└── assets/
-    ├── CSS/
-    │   └── style.css
-    ├── IMG/
-    │   ├── avatar.png
-    │   └── header-bg.jpg
-    └── JS/
-        └── script.js
-```
 
 
 ## Come avviarlo
