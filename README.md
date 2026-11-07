@@ -1,4 +1,4 @@
-# 💼 Portfolio Personale v2.0
+# 💼 Portfolio Personale v1.0
 
 Pagina portfolio personale realizzata con **HTML, CSS e JavaScript vanilla**.
 Presenta il mio percorso, le competenze che sto approfondendo, le esperienze e i progetti svolti, con un modulo di contatto in finestra modale.
